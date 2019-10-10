@@ -2,7 +2,7 @@
 @Description: In User Settings Edit
 @Author: your name
 @Date: 2019-10-10 14:59:32
-@LastEditTime: 2019-10-10 16:59:59
+@LastEditTime: 2019-10-10 17:38:37
 @LastEditors: Please set LastEditors
 '''
 
@@ -19,7 +19,7 @@ def insertion_sort(collection):
             insertion_index > 0 
             and collection[insertion_index - 1] > collection[insertion_index]):
             (collection[insertion_index], collection[insertion_index-1]) = (collection[insertion_index - 1], collection[insertion_index])
-            insertion_index -= 1
+             insertion_index -= 1
     return collection
 
 
