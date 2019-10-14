@@ -2,16 +2,10 @@
 @Description: In User Settings Edit
 @Author: your name
 @Date: 2019-10-10 14:59:32
-@LastEditTime: 2019-10-10 17:38:37
-@LastEditors: Please set LastEditors
+@LastEditTime: 2019-10-10 14:59:32
+@LastEditors: your name
 '''
 
-
-'''
-@description: 
-@param {type} 
-@return: 
-'''
 def insertion_sort(collection):
     for loop_index in range(1, len(collection)):
         insertion_index = loop_index
@@ -19,7 +13,7 @@ def insertion_sort(collection):
             insertion_index > 0 
             and collection[insertion_index - 1] > collection[insertion_index]):
             (collection[insertion_index], collection[insertion_index-1]) = (collection[insertion_index - 1], collection[insertion_index])
-             insertion_index -= 1
+            insertion_index -= 1
     return collection
 
 
