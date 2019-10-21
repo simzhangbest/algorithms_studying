@@ -1,1 +1,9 @@
 .exe
+.user
+.filters
+.sln
+.vcxproj
+.vcxproj.filters
+.vcxproj.user
+/Debug
+/.vs
