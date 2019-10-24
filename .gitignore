@@ -9,3 +9,5 @@
 /.vs
 /Delphi_data_struct/SimLib/.vs/SimLib/v16
 /Delphi_data_struct/SimLib/Debug
+/x64/Debug
+.vcxproj

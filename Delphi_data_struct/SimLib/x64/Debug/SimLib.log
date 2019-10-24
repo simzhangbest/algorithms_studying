@@ -1,125 +1,28 @@
-﻿  Exception.cpp
+﻿  Array.cpp
+G:\Algorithms\Delphi_data_struct\SimLib\Object.h(9,49): error C2821: “operator new”的第一个形参必须为“size_t”
+  DynamicArray.cpp
+G:\Algorithms\Delphi_data_struct\SimLib\Object.h(11,50): error C2821: “operator new”的第一个形参必须为“size_t”
+G:\Algorithms\Delphi_data_struct\SimLib\Object.h(9,49): error C2821: “operator new”的第一个形参必须为“size_t”
+  Exception.cpp
+G:\Algorithms\Delphi_data_struct\SimLib\Object.h(11,50): error C2821: “operator new”的第一个形参必须为“size_t”
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(9,49): error C2821: “operator new”的第一个形参必须为“size_t”
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(11,50): error C2821: “operator new”的第一个形参必须为“size_t”
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(49,17): error C2323: “SimLib::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(54,17): error C2323: “SimLib::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(60,17): error C2323: “SimLib::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(65,17): error C2323: “SimLib::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(70,16): error C2323: “SimLib::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(74,16): error C2323: “SimLib::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(79,16): error C2323: “SimLib::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(83,16): error C2323: “SimLib::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(88,16): error C2323: “SimLib::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(93,16): error C2323: “SimLib::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(167,28): error C2323: “SimLib::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(173,27): error C2323: “SimLib::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(182,28): error C2323: “SimLib::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new.h(189,27): error C2323: “SimLib::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(23,37): error C2323: “SimLib::operator new”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(31,37): error C2323: “SimLib::operator new[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(38,20): error C2323: “SimLib::operator delete”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\vcruntime_new_debug.h(45,20): error C2323: “SimLib::operator delete[]”: 非成员运算符 new 或 delete 函数不可声明为静态的，也不可在全局命名空间之外的命名空间中进行声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(22,13): error C2039: “memchr”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(22,19): error C2873: “memchr”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(23,13): error C2039: “memcmp”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(23,19): error C2873: “memcmp”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(24,13): error C2039: “memcpy”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(24,19): error C2873: “memcpy”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(25,13): error C2039: “memmove”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(25,20): error C2873: “memmove”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(26,13): error C2039: “memset”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(26,19): error C2873: “memset”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(27,13): error C2039: “strcat”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(27,19): error C2873: “strcat”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(28,13): error C2039: “strchr”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(28,19): error C2873: “strchr”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(29,13): error C2039: “strcmp”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(29,19): error C2873: “strcmp”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(30,13): error C2039: “strcoll”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(30,20): error C2873: “strcoll”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(31,13): error C2039: “strcpy”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(31,19): error C2873: “strcpy”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(32,13): error C2039: “strcspn”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(32,20): error C2873: “strcspn”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(33,13): error C2039: “strerror”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(33,21): error C2873: “strerror”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(34,13): error C2039: “strlen”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(34,19): error C2873: “strlen”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(35,13): error C2039: “strncat”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(35,20): error C2873: “strncat”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(36,13): error C2039: “strncmp”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(36,20): error C2873: “strncmp”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(37,13): error C2039: “strncpy”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(37,20): error C2873: “strncpy”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(38,13): error C2039: “strpbrk”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(38,20): error C2873: “strpbrk”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(39,13): error C2039: “strrchr”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(39,20): error C2873: “strrchr”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(40,13): error C2039: “strspn”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(40,19): error C2873: “strspn”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(41,13): error C2039: “strstr”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(41,19): error C2873: “strstr”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(42,13): error C2039: “strtok”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(42,19): error C2873: “strtok”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(43,13): error C2039: “strxfrm”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstring(43,20): error C2873: “strxfrm”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(20,18): error C2039: “fabs”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(24,18): error C2039: “fabsf”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(28,18): error C2039: “fabsl”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(33,13): error C2039: “div_t”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(33,18): error C2873: “div_t”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(34,13): error C2039: “ldiv_t”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(34,19): error C2873: “ldiv_t”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(35,13): error C2039: “abort”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(35,18): error C2873: “abort”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(36,13): error C2039: “abs”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(36,16): error C2873: “abs”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(38,13): error C2039: “atof”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(38,17): error C2873: “atof”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(39,13): error C2039: “atoi”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(39,17): error C2873: “atoi”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(40,13): error C2039: “atol”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(40,17): error C2873: “atol”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(41,13): error C2039: “bsearch”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(41,20): error C2873: “bsearch”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(42,13): error C2039: “calloc”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(42,19): error C2873: “calloc”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(43,13): error C2039: “div”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(43,16): error C2873: “div”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(44,13): error C2039: “exit”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(44,17): error C2873: “exit”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(45,13): error C2039: “free”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(45,17): error C2873: “free”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(46,13): error C2039: “labs”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(46,17): error C2873: “labs”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(47,13): error C2039: “ldiv”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(47,17): error C2873: “ldiv”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(48,13): error C2039: “malloc”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(48,19): error C2873: “malloc”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(49,13): error C2039: “mblen”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(49,18): error C2873: “mblen”: 符号不能用在 using 声明中
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(50,13): error C2039: “mbstowcs”: 不是“`global namespace'”的成员
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(50,21): error C2873: “mbstowcs”: 符号不能用在 using 声明中
+G:\Algorithms\Delphi_data_struct\SimLib\Exception.cpp(21,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+G:\Algorithms\Delphi_data_struct\SimLib\Exception.cpp(22,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : 参见“strcat”的声明
+G:\Algorithms\Delphi_data_struct\SimLib\Exception.cpp(23,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   List.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\cstdlib(50,21): fatal error C1003: 错误计数超过 100；正在停止编译
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : 参见“strcat”的声明
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(9,49): error C2821: “operator new”的第一个形参必须为“size_t”
   Object.cpp
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(11,50): error C2821: “operator new”的第一个形参必须为“size_t”
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(9,49): error C2821: “operator new”的第一个形参必须为“size_t”
-  SeqList.cpp
+  main.cpp
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(11,50): error C2821: “operator new”的第一个形参必须为“size_t”
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(9,49): error C2821: “operator new”的第一个形参必须为“size_t”
+  StaticList.cpp
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(11,50): error C2821: “operator new”的第一个形参必须为“size_t”
-G:\Algorithms\Delphi_data_struct\SimLib\SeqList.h(84,5): error C2760: 语法错误: 意外标记 "}"，应为 ";"
-G:\Algorithms\Delphi_data_struct\SimLib\SeqList.h(94): message : 查看对正在编译的 类 模板 实例化“SimLib::SimLib::SeqList<T>”的引用
-  SimLib.cpp
-G:\Algorithms\Delphi_data_struct\SimLib\Exception.h(6): fatal error C1075: “{”: 未找到匹配令牌
-G:\Algorithms\Delphi_data_struct\SimLib\Object.h(9,49): error C2821: “operator new”的第一个形参必须为“size_t”
-G:\Algorithms\Delphi_data_struct\SimLib\Object.h(11,50): error C2821: “operator new”的第一个形参必须为“size_t”
-G:\Algorithms\Delphi_data_struct\SimLib\SeqList.h(84,5): error C2760: 语法错误: 意外标记 "}"，应为 ";"
-G:\Algorithms\Delphi_data_struct\SimLib\SeqList.h(94): message : 查看对正在编译的 类 模板 实例化“SimLib::SimLib::SeqList<T>”的引用
-  SmartPointer.cpp
-G:\Algorithms\Delphi_data_struct\SimLib\Exception.h(6): fatal error C1075: “{”: 未找到匹配令牌
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(9,49): error C2821: “operator new”的第一个形参必须为“size_t”
   正在生成代码...
 G:\Algorithms\Delphi_data_struct\SimLib\Object.h(11,50): error C2821: “operator new”的第一个形参必须为“size_t”

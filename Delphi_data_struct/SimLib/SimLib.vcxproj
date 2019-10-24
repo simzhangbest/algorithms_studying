@@ -152,17 +152,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Array.cpp" />
-    <ClCompile Include="DynamicList.cpp" />
+    <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="Exception.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="Object.cpp" />
-    <ClCompile Include="SeqList.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SmartPointer.cpp" />
     <ClCompile Include="StaticList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
+    <ClInclude Include="DynamicArray.h" />
     <ClInclude Include="DynamicList.h" />
     <ClInclude Include="Exception.h" />
     <ClInclude Include="List.h" />
