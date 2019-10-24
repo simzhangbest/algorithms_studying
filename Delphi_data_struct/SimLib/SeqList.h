@@ -91,7 +91,7 @@ namespace SimLib
 				}
 				else
 				{
-					//在类外catch 会报错，注意一下，后续修改
+					//鍦ㄧ被澶朿atch 浼氭姤閿欙紝娉ㄦ剰涓�涓嬶紝鍚庣画淇敼
 					THROW_EXCEPTION(IndexOutOfBoundsException, "Parameter i is invalid... Index is out of bound");
 				}
 			}

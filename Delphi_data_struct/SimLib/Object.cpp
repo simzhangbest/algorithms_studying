@@ -5,7 +5,7 @@
 using namespace std;
 namespace SimLib
 {
-	void* Object::operator new (unsigned int size) throw() // throw ÊÇÒì³£Å×³öËµÃ÷
+	void* Object::operator new (unsigned int size) throw() // throw æ˜¯å¼‚å¸¸æŠ›å‡ºè¯´æ˜Ž
 	{
 		cout << "Object::operator new and size : " << size << endl;
 		return malloc(size);

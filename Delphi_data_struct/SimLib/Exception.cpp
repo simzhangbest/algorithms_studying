@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-10-24 19:05:02
+ * @LastEditTime: 2019-10-24 19:17:56
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /Delphi_data_struct/SimLib/Exception.cpp
+ */
 #include "Exception.h"
 #include <cstring>
 #include <cstdlib>
@@ -8,7 +16,7 @@ namespace SimLib
 
 	void Exception::init(const char* message, const char* file, int line)
 	{
-		m_message = _strdup(message);//×Ö·û´®¸´ÖÆµ½¶Ñ¿Õ¼ä
+		m_message = _strdup(message);//å­—ç¬¦ä¸²å¤åˆ¶åˆ°å †ç©ºé—´
 
 		if (file != NULL)
 		{
@@ -24,7 +32,7 @@ namespace SimLib
 			}
 			else
 			{
-				// ¶Ñ¿Õ¼äÎŞ·¨·ÖÅäÄÚ´æ
+				// å †ç©ºé—´æ— æ³•åˆ†é…å†…å­˜
 				m_location = NULL;
 			}
 

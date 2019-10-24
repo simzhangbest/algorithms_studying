@@ -8,12 +8,12 @@ namespace SimLib
 	class List : public Object
 	{
 	protected: 
-		//½ûÓÃ¿½±´¹¹ÔìºÍ¸³Öµ£¬·ÀÖ¹ÖØ¸´ÊÍ·Å¶Ñ¿Õ¼ä
+		//ç¦ç”¨æ‹·è´æ„é€ å’Œèµ‹å€¼ï¼Œé˜²æ­¢é‡å¤é‡Šæ”¾å †ç©ºé—´
 		List(const List&);
 		List& operator= (const List&);
 	public:
 		List() {}
-		virtual bool  insert(const T& e) = 0; //Î²²¿²åÈë
+		virtual bool  insert(const T& e) = 0; //å°¾éƒ¨æ’å…¥
 		virtual bool insert(int i, const T& e) = 0;
 		virtual bool remove(int i) = 0;
 		virtual bool set(int i, const T& e) = 0;
