@@ -1,31 +1,39 @@
 ﻿#include <iostream>
-#include "DynamicList.h"
-#include "StaticArray.h"
-#include "DynamicArray.h"
+#include "LinkList.h"
 using namespace std;
 using namespace SimLib;
 int main()
 {
+	LinkList<int> list;
 
-	DynamicArray<int> sla(8);
-	for (int i = 0; i < sla.length(); i++)
+	for (size_t i = 0; i < 5; i++)
 	{
-		sla[i] = i * i;
-	}
-	for (int i = 0; i < sla.length(); i++)
-	{
-		cout << sla[i] << endl;
+		list.insert(i);
 	}
 
-	cout << "---------" << endl;
-	DynamicArray<int> sla2(10);
-
-	sla2 = sla;
-
-
-	for (int i = 0; i < sla2.length(); i++)
+	for (size_t i = 0; i < 5; i++)
 	{
-		cout << sla2[i] << endl;
+		list.set(i, i*i);
+	}
+
+	for (size_t i = 0; i < list.length(); i++)
+	{
+		int v = 0;
+		list.get(i, v);
+		cout << v << endl;
+	}
+
+	for (size_t i = 0; i < list.length(); i++)
+	{
+		cout << list.get(i) << endl;
+	}
+
+	cout << "-------------------------" << endl;
+	list.remove(2);
+
+	for (size_t i = 0; i < list.length(); i++)
+	{
+		cout << list.get(i) << endl;
 	}
 
 

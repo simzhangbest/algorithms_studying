@@ -7,7 +7,7 @@ namespace SimLib
 {
 	void* Object::operator new (unsigned int size) throw() // throw 是异常抛出说明
 	{
-		cout << "Object::operator new and size : " << size << endl;
+		cout << "SimLib Object::operator new and size : " << size << endl;
 		return malloc(size);
 	}
 	void  Object::operator delete (void* p)

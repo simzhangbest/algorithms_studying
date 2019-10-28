@@ -10,14 +10,31 @@ namespace SimLib
 	{
 
 	protected:
-		class Node : public Object
+		struct Node : public Object
 		{
+		
 			T value;
 			Node* next;
 		};
 
-		Node m_header;
+		mutable struct : public Object {
+			char reserved[sizeof(T)];
+			Node* next;
+		} m_header;
 		int m_length;
+
+
+		Node* position(int i) const
+		{
+			Node* ret = reinterpret_cast<Node*>(&m_header); // * 类型转换
+
+			for (size_t p = 0; p < i; p++)
+			{
+				ret = ret->next;
+			}
+
+			return ret;
+		}
 
 	public:
 		LinkList()
@@ -25,9 +42,16 @@ namespace SimLib
 			m_header.next = nullptr;
 			m_length = 0;
 		}
-		~LinkList();
-		virtual bool  insert(const T& e) = 0; //尾部插入
-		virtual bool insert(int i, const T& e)
+
+
+
+		bool  insert(const T& e)
+		{
+			return  insert(m_length, e);
+		}
+
+
+		bool insert(int i, const T& e)
 		{
 			bool ret = ((0 <= i) && (i <= m_length));
 			
@@ -35,15 +59,9 @@ namespace SimLib
 			{
 				Node* node = new Node();
 
-				if (node != Null)
+				if (node != nullptr)
 				{
-					Node* current = &m_header;
-
-					for (size_t p = 0; p < i; p++)
-					{
-						current = current->next;
-					}
-
+					Node* current = position(i);
 					node->value = e;
 					node->next = current->next;
 					current->next = node;
@@ -52,17 +70,88 @@ namespace SimLib
 				}
 				else
 				{
-					
+					THROW_EXCEPTION(NoEnoughMemoryException, "No enough memory to insert ...");
 				}
 			}
 
 			return ret;
 		}
-		virtual bool remove(int i) = 0;
-		virtual bool set(int i, const T& e) = 0;
-		virtual bool get(int i, T& e) const = 0;
-		virtual int length() const = 0;
-		virtual void clear() = 0;
+		bool remove(int i)
+		{
+			bool ret = ((0 <= i) && (i < m_length));
+
+			if (ret)
+			{
+				Node* current = position(i);
+
+				Node* toDel = current->next;
+				current->next = toDel->next;
+				delete toDel;
+				m_length--;
+			}
+
+			return ret;
+		}
+		bool set(int i, const T& e)
+		{
+			bool ret = ((0 <= i) && (i < m_length));
+
+			if (ret)
+			{
+				Node* current = position(i);
+				current->next->value = e;
+			}
+
+			return ret;
+		}
+
+		T get(int i) const
+		{
+			T ret;
+			if (get(i, ret))
+			{
+				return ret;
+			}
+			else
+			{
+				THROW_EXCEPTION(IndexOutOfBoundsException, "Invaild index i to get element ...");
+			}
+		}
+
+		bool get(int i, T& e) const
+		{
+			bool ret = ((0 <= i) && (i < m_length));
+
+			if (ret)
+			{
+				Node* current = position(i);
+				e = current->next->value;
+			}
+
+			return ret;
+		}
+		int length() const
+		{
+			return m_length;
+		}
+		void clear()
+		{
+			while (m_header.next)
+			{
+				Node* toDel = m_header.next;
+
+				m_header.next = toDel->next;
+
+				delete toDel;
+			}
+
+			m_length = 0;
+		}
+
+		~LinkList()
+		{
+			clear();
+		}
 
 	};
 

@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,6 +124,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="DynamicList.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="LinkList.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="SeqList.h" />
+    <ClInclude Include="SmartPointer.h" />
+    <ClInclude Include="StaticArray.h" />
+    <ClInclude Include="StaticList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="LinkList.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
