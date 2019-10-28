@@ -8,33 +8,10 @@ int main()
 
 	for (size_t i = 0; i < 5; i++)
 	{
-		list.insert(i);
+		list.insert(0, i);
 	}
 
-	for (size_t i = 0; i < 5; i++)
-	{
-		list.set(i, i*i);
-	}
-
-	for (size_t i = 0; i < list.length(); i++)
-	{
-		int v = 0;
-		list.get(i, v);
-		cout << v << endl;
-	}
-
-	for (size_t i = 0; i < list.length(); i++)
-	{
-		cout << list.get(i) << endl;
-	}
-
-	cout << "-------------------------" << endl;
-	list.remove(2);
-
-	for (size_t i = 0; i < list.length(); i++)
-	{
-		cout << list.get(i) << endl;
-	}
+	cout << list.find(0) << endl;
 
 
 	return 0;
