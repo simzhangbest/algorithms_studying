@@ -1,4 +1,3 @@
-#pragma once
 #ifndef EXCEPTION_H
 #define EXCEPTION_H
 #include "Object.h"
